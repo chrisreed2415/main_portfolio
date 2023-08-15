@@ -7,8 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'mainbg' : '#000000',
+        'secondbg' : '#C3FF00',
+        'thirdbg' : '#4638FF',
+      },
+      textColor: {
+        'whitetxt': '#FFFFFF',
+        'maintxt': '#C3FF00',
+        'sectxt': '#4638FF'
+      },
       fontFamily: {
-        burtons: "burtons",
+        rowdies: "rowdies",
+        ubuntu: 'ubuntu',
         poppins: ["Poppins", "sans-serif"],
       },
     },
